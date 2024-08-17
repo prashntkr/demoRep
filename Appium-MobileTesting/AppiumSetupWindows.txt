@@ -1,0 +1,2 @@
+
+Appium set up for Windows and Mac
