@@ -1,2 +1,32 @@
+Appium set up for Windows
 
-Appium set up for Windows and Mac
+1. Download and Install Java i.e. correct JDK
+
+2. Set Java home, where you have installed java in environment variables.
+	a.JAVA_HOME = C:\Program FIles\Java\jdk1.8.011
+
+3. Download Android Studio and find out the Android SDK path
+	install standard way
+
+4. Download Node(Prerequisite for Appium Server) from nodes.org
+
+5. Set Environment Variables:
+	Set (JAVA, Android SDK, and Node) Home paths in Environment Variables.
+	
+   Install Android SDK tools from Android Studio
+
+	Android Studio<<System Settings<<Android SDK<<uncheck Hide obsolete Packages from bottom 	checkbox<<select SDK tools<<check Android SDK tools(Obsolete)<<click apply.
+	
+	This will download sdk tools then tools should be present in sdk
+	
+
+	b. ANDROID_HOME : C:\Users\----\AppData\Local\sdk
+	
+	add path : SDK\tools\bin
+		 : SDK\tools
+		 : SDK\Platform-toools
+
+
+	C. NODE_Home : C:\Program FIles\nodejs
+
+	D. Add path : C:\Program FIles\nodejs\node_module\npm\bin
