@@ -15,7 +15,8 @@ Appium set up for Windows
 	
    Install Android SDK tools from Android Studio
 
-	Android Studio<<System Settings<<Android SDK<<uncheck Hide obsolete Packages from bottom 	checkbox<<select SDK tools<<check Android SDK tools(Obsolete)<<click apply.
+	Android Studio<<System Settings<<Android SDK<<uncheck Hide obsolete Packages from bottom 	
+	checkbox<<select SDK tools<<check Android SDK tools(Obsolete)<<click apply.
 	
 	This will download sdk tools then tools should be present in sdk
 	
